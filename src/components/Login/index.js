@@ -4,6 +4,7 @@ import "./styles.css";
 import Axios from 'axios'
 import md5 from 'md5'
 import {Redirect} from 'react-router-dom'
+import NavBar from "../NavBar";
 class Login extends Component {
   constructor(props) {
     super(props);
@@ -60,6 +61,7 @@ class Login extends Component {
     return (
       <div style={{marginTop:"7%"}}>
         {this.renderRedirect()}
+        <NavBar/>
         <Row>
           <Col />
           <Col>

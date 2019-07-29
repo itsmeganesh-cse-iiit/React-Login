@@ -12,12 +12,6 @@ const routing = (
     <Router>
       <div>
           <br/><br/>
-        <Row>
-            <Col></Col>
-            <Col ><Link to="/signup" style={{float:"right"}}><Button variant="outline-primary">Signup</Button></Link></Col>
-            <Col><Link to="/login"><Button variant="outline-primary">Login</Button></Link></Col>
-            <Col></Col>
-        </Row>
         <Switch>
         <Route exact path="/" component={App} />
         <Route path="/signup" component={Signup} />
